@@ -23,12 +23,12 @@ In order to achieve this, you'll need to [create an Azure AD Application](https:
 
 Our agents provide the following authentication mechanisms:
 
-- **Service principle** - Use application id & secret of the Azure AD entity that has been pre-created to authenticate with
+- **Service principal** - Use application id & secret of the Azure AD entity that has been pre-created to authenticate with
 - **Managed Identity** - Use zero-secret authentication by letting Microsoft handle the authentication for you ([docs](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview))
 
 For details how to configure the authentication, we recommend reading our agent configuration documentation.
 
-### Service Principle Authentication
+### Service Principal Authentication
 
 ![Availability Badge](https://img.shields.io/badge/Available%20Starting-v0.1-green.svg)
 
